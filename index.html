@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;900&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+        
+    <!-- first load the default bootstrap styles, then you can override some of those components 
+        with your own custom CSS -->
+
+    <!-- StyleSheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" >
+
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    
+    
+    <title>Lymo Water</title>
+</head>
+<body>
+    <!-- Title -->
+    <section id="title" >
+        <div class="container-fluid title-container" >
+            <!-- Nav Bar -->
+            <nav  class="navbar navbar-light navbar-expand-lg"  >
+                <a class="navbar-brand">Lymo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto" >
+                        <li class="nav-item" >
+                            <a class="nav-link" href="#title">Home</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="#pricing-section">Our Products</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="#orders">Order</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="#footer">Get in Touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <!-- Title -->
+            <div class="row" >
+                <div class="col-lg-6 title-heading-column" >
+                    <h2 class="title-heading" >Water that boosts your happiness. No added taste or enhanced with minerals.
+                        Brings you the joy for your soul.
+                    </h2>
+                    <button  type="button" class="btn btn-dark" >Our Products</button>
+                    <button type="button" class="btn btn-dark" >Product Locator</button>
+                </div>
+                <div class="col-lg-6 title-image-column" >
+                    <img class="title-image" src="images/water-bottle (5).png" alt="water-bottle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <div class="container-fluid features-container" >
+        <div class="row" >
+            <div class="col-lg-4 features-columns " >
+                <i class="fa-solid fa-circle-check features-icon"></i>
+                <h3 class="features-title" >Trusted</h3>
+                <p class="features-description" >Our water is safe to drink and feel the freshness</p>
+            </div>
+            <div class="col-lg-4 features-columns " >
+                <i class="fa-solid fa-heart features-icon"></i>
+                <h3 class="features-title" >Loved by millions</h3>
+                <p class="features-description" >Our products are used by millionsof users around the world</p>
+            </div>
+            <div class="col-lg-4 features-columns " >
+                <i class="fa-solid fa-leaf features-icon"></i>
+                <h3 class="features-title" >Eco friendly</h3>
+                <p class="features-description" >Water bottels are recycled again</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <section class="carousel-section" >
+        <!-- Testimonial Carousel -->
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="carousel-image" src="images/soda.png" alt="First slide">
+              </div>
+              <div class="carousel-item" > 
+                <img class="carousel-image" src="images/water-bottle.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+          </div>
+    </section>
+
+
+    <!-- Pricing -->
+    <section id="pricing-section" >
+        <h1 id="pricing-heading" >Valid Price !!!</h1>
+        <p class="pricing-description" >To make acessible to every user across the world, we dicided to
+            make water available at a reasonable prices.</p>
+        <div class="row" >
+            <div class="col-lg-4 col-md-6" >
+                <div class="card" >
+                    <div class="card-header" >
+                        <h5>1 Litre</h5>
+                    </div>
+                    <div class="card-body" >
+                        <img class="card-image" src="images/water-bottle (3).png" alt="bottle-image">
+                        <h3>$0.99</h3>
+                        
+                    </div>
+                    <div class="card-footer" >
+                        <a  class="btn btn-dark" href="#" role="button">Add  <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" >
+                <div class="card" >
+                    <div class="card-header" >
+                        <h5>5 Litre</h5>
+                    </div>
+                    <div class="card-body" >
+                        <img class="card-image" src="images/water-bottle (2).png" alt="bottle-image">
+                        <h3>$4.99</h3>
+                    </div>
+                    <div class="card-footer" >
+                        <a  class="btn btn-dark" href="#" role="button">Add  <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" >
+                <div class="card litre-20-can" >
+                    <div class="card-header" >
+                        <h5>20 Litre</h5>
+                    </div>
+                    <div class="card-body" >
+                        <img class="card-image" src="images/water-bottle (1).png" alt="bottle-image">
+                        <h3>$10.99</h3>
+                    </div>
+                    <div class="card-footer" >
+                        <a  class="btn btn-dark" href="#" role="button">Add  <i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </section>  
+
+    <!-- Orders  -->
+    <section id="orders" >
+        <div class="container-fluid orders-container">  
+            <h1 class="orders-title" >Wanna chill out ? Order our products now !!!</h1>
+            <a  class="btn btn-dark" href="#" role="button" ><span>Order now</span></a>
+            <button class="btn btn-dark">More Products</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Contacts -->
+    <footer id="footer" >
+        <div class="container-fluid contacts-container" >
+            <i class="fa-brands fa-facebook  contact-icons"></i>
+            <i class="fa-brands fa-instagram contact-icons"></i>
+            <i class="fa-brands fa-twitter contact-icons"></i>
+            <i class="fa-brands fa-discord contact-icons"></i>
+            <p class="copyright" >©️ Copyright 2022 Lymo</p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

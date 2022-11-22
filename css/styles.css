@@ -1,0 +1,154 @@
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    margin-right: 20px;
+}
+
+.card-image{
+    width: 50%;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    filter:invert(1);
+}
+
+.carousel-image{
+    width: 60%;
+    /* height: 70%; */
+    padding: 5% 15%;
+}
+
+.carousel-section{
+    padding: 5% 5%;
+    background-color: white;
+}
+
+.contacts-container{
+    padding:10% 10% 5% 10%;
+}
+
+.contact-icons{
+    font-size: 1.5rem;
+    padding: 0 20px 20px;
+}
+
+.copyright{
+    color: gray;
+}
+
+.features-columns{
+    padding-bottom: 40px;
+}
+
+.features-container{
+    padding: 8% 0;
+    background-color: #b9edfc;
+}
+
+.features-description{
+    width: 70%;
+    color: gray;
+    font-size: 0.8rem;
+    margin: 0 auto;
+}
+
+.features-icon{
+    color: #00c8ff;
+    font-size: 3.5rem;
+}
+
+.features-title{
+    padding: 15px 0 10px 0;
+    font-weight: 600;
+}
+
+.orders-container{
+    padding: 7% 10%;
+    background-color: #b9edfc;
+}
+
+.orders-title{
+    width: 80%;
+    margin: 0 auto 40px auto;
+}
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-link{
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
+.pricing-description{
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width:50% ;
+}
+
+#pricing-heading{
+    font-weight: 500;
+    padding-bottom: 10px ;
+}
+
+#pricing-section{
+    padding: 8% 5%;
+}
+
+.title-container{
+    padding: 0 8% 100px ;
+}
+
+.title-heading{
+    /* color: rgb(33, 54, 81); */
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.title-heading-column{
+    text-align: left;
+}
+
+.title-image{
+    width: 60%;
+}
+
+.title-image-column{
+    text-align: center;
+}
+
+@media (max-width:1030px){
+    .title-heading-column{
+        padding: 0 0 30px 50px;
+        text-align: center;
+    }
+
+    .title-image{
+        width: 50%;
+        padding: 0;
+    }
+
+    .card-image{
+        width: 30%;
+    }
+}
+
+@media (max-width:992) {
+    .litre-20-can{
+        width: 50%;
+        margin: 20px auto;
+    }
+}
+
